@@ -6,15 +6,11 @@ using namespace std;
 int main()
 {
     int t;
-    char s[1002], word[1002];
+    char s[10];
+    string n;
 
-    scanf("%d", &t);
-
-    for(int i = 0; i < t; i++)
-    {
-        scanf(" %[^\n]", s);
-        printf("%s", s);
-    }
-
+    cin >> s;
+    n = s;
+    cout << n << endl;
     return 0;
 }
