@@ -42,7 +42,7 @@ public class solution
             }
             catch(Exception e)
             {
-                System.out.println(scan.next() + " can't be fitted anywhre.");
+                System.out.println(scan.next() + " can't be fitted anywhere.");
             }
 
             t--;
