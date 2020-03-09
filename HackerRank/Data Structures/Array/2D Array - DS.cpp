@@ -4,7 +4,7 @@
 //Finding max hour glass sum
 int hourGlassSum(int arr[6][6])
 {
-    int maxSum = 0, hgSum = 0;
+    int hgSum, maxSum = -63;
 
     //Checking 16 hourglasses
     for(int i = 1; i < 5; i++)
